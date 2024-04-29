@@ -1,0 +1,18 @@
+            - name: Python3.8 PyInstaller Linux AMD64
+  # You may pin to the exact commit or the version.
+  # uses: action-python/pyinstaller-py3.8@1839eaaab51a950d6a80bf199c2527cfb045421b
+  uses: action-python/pyinstaller-py3.8@v1.0.0
+  with:
+    # Directory containing source code & .spec file (optional requirements.txt).
+    path: # default is src
+    # Specify a custom URL for PYPI
+    pypi_url: # optional, default is https://pypi.python.org/
+    # Specify a custom URL for PYPI Index
+    pypi_index_url: # optional, default is https://pypi.python.org/simple
+    # Specify a file path for .spec file
+    spec: # optional, default is 
+    # Specify a file path for requirements.txt file
+    requirements: # optional, default is requirements.txt
+    # Rename the binary file, this will only work when you have --onefile binary.
+    rename: # optional, default is 
+          
