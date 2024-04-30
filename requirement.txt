@@ -1,9 +1,5 @@
-[packages]
 mysql-connector-python==8.2.0
 flask==3.0.3
 requests==2.31.0
 smptlib===3.10
 MIMEMultipart===5.10
- 
-[requires]
-python_version = "3.9"
